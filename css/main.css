@@ -204,6 +204,12 @@ footer {
   letter-spacing: 1px;
   font-weight: bold; }
 
+@media screen and (max-width: 480px) {
+  .slide {
+    padding: 60px 0px; }
+    .slide img {
+      margin-left: 0px; } }
+
 .slider {
   background: #41bfb1; }
   .slider .slide {
