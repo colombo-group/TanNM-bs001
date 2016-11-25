@@ -1,0 +1,29 @@
+/* About */
+
+.wrapper{
+		width: 90%;
+		margin:auto;	
+	}
+
+.about{
+	text-align:left;
+	padding:20px 0px;
+	background:#3cc3b5;
+	h1{
+		font-family: BebasNeueRegular;
+		font-size: 27px;
+		color: #ffffff;
+	}
+	.list-unstyled{
+		li{
+			padding:3px 0px;
+			
+			a{
+			color: #ffffff;
+			font-size: 15px;
+			font-family: OpenSans-Regular;
+			text-decoration: none;
+			}
+		}
+	}
+}

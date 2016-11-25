@@ -1,0 +1,40 @@
+.nav-bar{
+	background:#4ccfc1;
+	padding: 10px 0px;	
+	li{
+		padding: 0px 22px;
+		border-right:1px solid #ffffff;
+		a{
+		color:#ffffff;
+		font-family:BebasNeueRegular;
+		font-size:21px;
+		letter-spacing: 1.5px;
+		word-spacing: 1px;
+		&:hover{
+			background:none;
+		}
+	}
+
+}
+	a:first-child{
+		padding: 0px;
+	}
+	li:last-child{
+		border-right:0px;
+		padding-right: 0px;
+	}
+	.icon-bar{
+		background: #ffffff;
+	}
+	#menu-first{
+		padding-left:0px;
+	}
+
+}
+ @media screen and (max-width: 480px){
+	.nav-bar{
+		li{
+			padding:10px 22px;
+		}
+	}
+}                

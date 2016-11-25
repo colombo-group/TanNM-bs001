@@ -1,0 +1,38 @@
+.slider{
+	background:#41bfb1;
+	.slide{
+		padding: 60px 70px;
+		img{
+			margin-left: 60px;
+		}
+		.caption{
+			h2{
+				font-family: BebasNeueRegular;
+				font-size: 61px;
+				color: #ffffff;
+				text-transform: uppercase;
+				line-height: 55px;
+				font-weight: bold;
+			}
+			p{
+				font-family: OpenSans-Regular;
+				font-size: 17px;
+				color: #ffffff;
+				text-transform: capitalize;
+				font-weight: normal;		
+		}	
+		button{
+			background:#3cc2b1;
+			margin-top: 10px;
+			border: 2px solid #ffffff;
+			a{
+				color:#ffffff;
+				text-decoration: none;
+				font-family: BebasNeueRegular;
+				font-size: 27px;
+				font-weight: bold;
+			}
+		}
+		}
+	}
+}

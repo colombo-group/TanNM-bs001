@@ -1,0 +1,73 @@
+/* featureProduct */
+
+@mixin product-boder($color1 , $color2){
+	border: 1px solid $color1; /* For browsers that do not support gradients */
+    border: 1px solid -webkit-linear-gradient($color1, $color2 ); /* For Safari 5.1 to 6.0 */
+    border: 1px solid -o-linear-gradient($color1, $color2 ); /* For Opera 11.1 to 12.0 */
+    border: 1px solid -moz-linear-gradient($color1, $color2 ); /* For Firefox 3.6 to 15 */
+    border: 1px solid linear-gradient($color1, $color2 ); /* Standard syntax */
+}
+@mixin product-boder-bottom($color1 , $color2){
+	border-bottom: 6px solid $color1; /* For browsers that do not support gradients */
+    border-bottom: 6px solid -webkit-linear-gradient($color1, $color2 ); /* For Safari 5.1 to 6.0 */
+    border-bottom: 6px solid -o-linear-gradient($color1, $color2 ); /* For Opera 11.1 to 12.0 */
+    border-bottom: 6px solid -moz-linear-gradient($color1, $color2 ); /* For Firefox 3.6 to 15 */
+    border-bottom: 6px solid linear-gradient($color1, $color2 ); /* Standard syntax */
+}	
+.featured-product{
+	.wrapper{
+		width: 90%;
+		margin:auto;	
+	}
+	.featured-product-title{
+		padding: 15px 0px;
+		background: #40c6b4;
+		h2{
+			font-family: BebasNeueRegular;
+			font-size: 31px;
+			text-transform: uppercase;
+			color:#ffffff;
+			letter-spacing: 0.5px;
+			word-spacing: 1px;
+			margin-left: 10px;	
+		}
+	}
+	.products{
+		margin-top: 32px;
+		.product{
+			text-align: center;
+			min-height: 270px;
+			padding : 25px 	0px 25px 0px;
+			@include product-boder(#e4e4e4,#f6f6f6);
+			@include product-boder-bottom(#3cc395,#f6f6f6);
+			margin-bottom: 55px;
+			span{
+				margin-top: 12px;
+				font-size: 27px;
+				color:#afafaf;
+				font-family: BebasNeueRegular;
+				text-transform: uppercase;
+			}
+			h2{
+				letter-spacing: 1px;
+				word-spacing: 2px;
+				font-size: 27px;
+				color:#afafaf;
+				font-family: BebasNeueRegular;
+				text-transform: uppercase;
+			}
+			button{
+				margin-left: 12px;
+				background: #3cc395;
+			}
+			a{
+				font-size: 18px;
+				color:#afafaf;
+				font-family: BebasNeueRegular;
+				text-transform: uppercase;
+				text-decoration: none;
+				color:#ffffff;
+			}
+		}
+	}
+}

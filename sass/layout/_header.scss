@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url(../fonts/Lobster_1_4.otf);
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url(../fonts/BebasNeueRegular.ttf);
+}
+
+.row{
+	margin-right:0px;	
+}
+.top-header {
+	width: 100%;
+	.logo{
+		h1{
+			font-family : Lobster;
+			font-size :49px;
+		}
+		a{
+			color : #3cc3b5;
+			text-decoration: none;
+		}
+	}
+
+	.search-w{
+		margin-top:30px;
+		input:focus{
+			 outline: none;
+    		border: 1px solid #ffffff;
+			background: #ffffff;
+		}
+		}
+	.cart-info{
+		margin-top:25px;
+		span {
+			margin-top: 5px;
+			margin-right: 20px;
+			color:#a1a1a1;
+			font-family:BebasNeueRegular;
+			font-size:33px;
+			&:last-child{
+				margin-right: 35px;
+			}
+		}
+	}		
+}
+
+@media screen and (max-width: 480px){
+	.cart-info{
+		margin-bottom: 50px;
+
+		img{
+			right:200px;
+		}
+		span{
+			right:10px;
+		}
+	}
+}
+//end-top header
+
+
+
+//end nar-bar

@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(../fonts/Lobster_1_4.otf);
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url(../fonts/BebasNeueRegular.ttf);
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+body{
+	font-family:BebasNeueRegular;
+}
+.wrapper{
+		width: 90%;
+		margin:auto;
+	}
